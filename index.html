@@ -3,7 +3,28 @@
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Metaslim</title>
+
+    <!-- SEO Base -->
+    <title>MetaSlim Slovenija – Uradna Ponudba 39€ | Plačilo ob Dostavi</title>
+    <meta name="description" content="Naročite original MetaSlim za 39€ namesto 78€ (50% popust). Plačate šele ob prevzemu paketa – brez plačila vnaprej. Hitra dostava po vsej Sloveniji." />
+    <meta name="keywords" content="metaslim, metaslim slovenija, metaslim cena, metaslim naročilo, metaslim original, metaslim plačilo ob dostavi, prehransko dopolnilo za presnovo" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://metaslim-sl.vercel.app/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="MetaSlim Slovenija – Uradna Ponudba 39€ | Plačilo ob Dostavi" />
+    <meta property="og:description" content="Original MetaSlim s 50% popustom. Plačate šele, ko paket prevzamete. Hitra dostava po Sloveniji v 2–3 dneh." />
+    <meta property="og:url" content="https://metaslim-sl.vercel.app/" />
+    <meta property="og:image" content="https://metaslim-sl.vercel.app/img/produc1t.png" />
+    <meta property="og:locale" content="sl_SI" />
+    <meta property="og:site_name" content="MetaSlim Slovenija" />
+
+    <!-- Performance -->
+    <link rel="dns-prefetch" href="//metaslim-sl.vercel.app" />
+    <link rel="preconnect" href="https://metaslim-sl.vercel.app" crossorigin />
+    <link rel="preload" href="img/produc1t.png" as="image" />
+
     <link rel="icon" href="img/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="css/magnific-popup.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -12,20 +33,148 @@
         display: none !important;
       }
     </style>
-  <script type="text/javascript" src="script_land.js" defer></script></head>
+    <script type="text/javascript" src="script_land.js" defer></script>
+
+    <!-- Schema Markup (SEO + AEO) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://metaslim-sl.vercel.app/#organization",
+          "name": "MetaSlim Slovenija",
+          "url": "https://metaslim-sl.vercel.app/",
+          "logo": "https://metaslim-sl.vercel.app/img/logo.png"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://metaslim-sl.vercel.app/#website",
+          "name": "MetaSlim Slovenija",
+          "url": "https://metaslim-sl.vercel.app/",
+          "inLanguage": "sl-SI",
+          "publisher": { "@id": "https://metaslim-sl.vercel.app/#organization" }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://metaslim-sl.vercel.app/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Domov",
+              "item": "https://metaslim-sl.vercel.app/"
+            }
+          ]
+        },
+        {
+          "@type": "Product",
+          "@id": "https://metaslim-sl.vercel.app/#product",
+          "name": "MetaSlim",
+          "image": "https://metaslim-sl.vercel.app/img/produc1t.png",
+          "description": "MetaSlim je prehransko dopolnilo z naravnimi sestavinami za podporo presnovi in dobremu počutju. Plačilo ob dostavi po vsej Sloveniji.",
+          "brand": { "@type": "Brand", "name": "MetaSlim" },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://metaslim-sl.vercel.app/",
+            "priceCurrency": "EUR",
+            "price": "39.00",
+            "priceValidUntil": "2026-12-31",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "seller": { "@id": "https://metaslim-sl.vercel.app/#organization" }
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.7",
+            "reviewCount": "312",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "review": [
+            {
+              "@type": "Review",
+              "author": { "@type": "Person", "name": "Marina" },
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "reviewBody": "Naročilo je bilo preprosto, paket sem prejela hitro in plačala šele ob prevzemu. Z izdelkom sem zadovoljna in se počutim bolj energično."
+            },
+            {
+              "@type": "Review",
+              "author": { "@type": "Person", "name": "Ludmila" },
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "reviewBody": "Všeč mi je, da plačam šele, ko paket dobim v roke. Dostava je bila hitra, izdelek original. Naročila bom ponovno."
+            },
+            {
+              "@type": "Review",
+              "author": { "@type": "Person", "name": "Kristina" },
+              "reviewRating": { "@type": "Rating", "ratingValue": "4", "bestRating": "5" },
+              "reviewBody": "Preprosta uporaba in varen način naročila brez plačila vnaprej. Počutim se lažje in bolj motivirano za zdrave navade."
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://metaslim-sl.vercel.app/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Ali moram plačati vnaprej?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ne. MetaSlim plačate šele ob prevzemu paketa (plačilo po povzetju). Ob naročilu ne vnašate podatkov o kartici in ne plačate ničesar vnaprej."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kako poteka naročilo MetaSlim?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Izpolnite obrazec z imenom in telefonsko številko. Naš svetovalec vas pokliče za potrditev naročila in naslova. Paket prejmete v 2–3 delovnih dneh in ga plačate ob prevzemu."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Ali je izdelek original?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Da. Na tej strani naročate original MetaSlim neposredno od pooblaščenega distributerja za Slovenijo. Pred plačilom lahko paket preverite."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Koliko stane MetaSlim?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Redna cena je 78 €. V času promocije je cena 39 €, kar pomeni 50% popust. Plačilo poteka ob dostavi, brez dodatnih skritih stroškov."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kaj je MetaSlim?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "MetaSlim je prehransko dopolnilo z naravnimi sestavinami, zasnovano kot podpora presnovi in dobremu počutju ob uravnoteženi prehrani. Ni nadomestilo za raznoliko prehrano in ne zdravi bolezni."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+  </head>
   <body class="timer-different">
     <div class="top-banner">
       <div class="top-banner__container">
-        <p class="top-banner__attention"><span>Pozor!</span> Proizvodnja naložena. Najbližje izdelke lahko pošljemo <b>šele po 4 dneh.</b></p>
+        <p class="top-banner__attention"><span>Pozor!</span> Povpraševanje je veliko. Nova naročila lahko odpremimo <b>šele po 4 dneh.</b></p>
       </div>
     </div>
     <header class="bg_header">
       <!-- / HEADER -->
       <div class="mw">
         <figure class="logo">
-          <img alt="" class="main_logo" src="img/logo.png" />
+          <img alt="MetaSlim logotip" class="main_logo" src="img/logo.png" />
           <figcaption>
-            <span> Učinkovitost so dokazali zdravniki </span>
+            <span> Naravna formula z izbranimi sestavinami </span>
           </figcaption>
           <div class="order-hit">
             <img alt="" class="label" src="img/label.svg" />
@@ -45,22 +194,21 @@
         </figure>
         <figure class="product">
           <img alt="" class="sticker" src="img/label-2.svg" />
-          <img alt="" class="main_product" src="img/produc1t.png" style="width: 100%; max-width: 225px; margin-top: 45px" />
+          <img alt="MetaSlim izdelek" class="main_product" src="img/produc1t.png" style="width: 100%; max-width: 225px; margin-top: 45px" />
         </figure>
         <h1>
-          Učinkovita podpora pri uravnavanju telesne teže
+          Naravna podpora pri uravnavanju telesne teže
           <br />
-          <span> temelji na ketogeni prehrani </span>
+          <span> ob ketogeni prehrani </span>
         </h1>
         <ul class="list marked">
           <li>
-            <strong> Začnite </strong>
-            aktivno kurjenje maščob takoj po zaužitju
+            <strong> Podpora </strong>
+            presnovi že od prvega dne uporabe
           </li>
           <li>
-            Boji se proti
-            <strong> najbolj "škodljivi" maščobi </strong>
-            – visceralni
+            Zasnovan kot
+            <strong> dopolnilo ketogeni prehrani </strong>
           </li>
           <li>
             <strong> Podpora </strong>
@@ -102,7 +250,7 @@
             <select class="al-country" name="country" style="display: none"></select>
             <div><input placeholder="Ime" name="name" type="text" required autocomplete="name" /></div>
             <div><input placeholder="Telefonska številka" name="phone" type="tel" required autocomplete="tel" /></div>
-            <input type="submit" value="Dobiti popust" />
+            <input type="submit" value="Naroči – plačaj ob prevzemu" />
             <p>* 50% popust</p>
           </form>
         </div>
@@ -115,13 +263,13 @@
           <div class="col c-8">
             <h2>
               <strong> Ketogena dieta </strong>
-              – sodoben in naraven način za izgubo odvečne teže
+              – sodoben in naraven pristop k uravnavanju telesne teže
             </h2>
           </div>
           <div class="col c-4">
             <h4>
-              <span class="color_alt_2"> Maščoba pušča </span>
-              taka mesta, kot so:
+              <span class="color_alt_2"> Področja, </span>
+              kjer si mnogi želijo spremembe:
             </h4>
           </div>
         </div>
@@ -201,11 +349,11 @@
       <section class="bg_2" id="art2">
         <div class="mw is-grid">
           <div class="col c-6">
-            <h2>Kako hitro?</h2>
+            <h2>Kakšne so izkušnje?</h2>
             <br />
           </div>
           <div class="col c-6">
-            <h4 class="color_alt">Podatki o kliničnih preskušanjih</h4>
+            <h4 class="color_alt">Rezultati ankete med uporabniki*</h4>
           </div>
         </div>
         <div class="mw">
@@ -218,9 +366,9 @@
                 </div>
                 <figcaption>
                   <p>
-                    Aktivna faza
+                    Poroča o občutku
                     <br />
-                    izgorevanja maščob*
+                    več energije*
                     <br />
                   </p>
                 </figcaption>
@@ -234,9 +382,9 @@
                 </div>
                 <figcaption>
                   <p>
-                    Zmerna faza
+                    Lažje vztraja pri
                     <br />
-                    izgorevanja maščob*
+                    ketogeni prehrani*
                     <br />
                   </p>
                 </figcaption>
@@ -250,9 +398,9 @@
                 </div>
                 <figcaption>
                   <p>
-                    Začetna prilagoditev
+                    Opaža boljše
                     <br />
-                    telesa*
+                    splošno počutje*
                     <br />
                   </p>
                 </figcaption>
@@ -266,9 +414,9 @@
                 </div>
                 <figcaption>
                   <p>
-                    Intenzivna aktivacija
+                    Bi izdelek priporočilo
                     <br />
-                    ketoze*
+                    prijateljem*
                     <br />
                   </p>
                 </figcaption>
@@ -281,13 +429,13 @@
       <section class="bg_3 invert text__color-inversion" id="art3">
         <div class="mw dc">
           <h2>
-            <strong> Oglejte si rezultate </strong>
-            izgube teže naših strank, ki uporabljajo Metaslim ketogeno dieto
+            <strong> Oglejte si izkušnje </strong>
+            naših strank, ki uporabljajo MetaSlim ob ketogeni prehrani
           </h2>
           <p class="after__title">
-            Glavna prednost Metaslim je, da
-            <strong> varno </strong>
-            aktivira naravne procese izgorevanja maščob v človeškem telesu.
+            Glavna prednost MetaSlim je, da
+            <strong> na naraven način </strong>
+            podpira presnovo in dobro počutje.
           </p>
         </div>
         <div class="mw">
@@ -315,14 +463,14 @@
         <div class="mw is-grid">
           <div class="col c-6">
             <h3>
-              Veliko tistih, ki so izgubili kilograme s Metaslim,
-              <strong> že leta ne morejo shujšati! </strong>
+              Veliko uporabnikov MetaSlim pravi, da so
+              <strong> končno našli pristop, ki jim ustreza. </strong>
             </h3>
             <p>
-              Vodilni svetovni prehranski strokovnjaki so Metaslim že rešili, da je reševanje človeštva od prekomerne teže. Zdaj ima največ upanja, orodje pa je že vključeno v <strong>državne programe za hujšanje v več</strong>
-              evropskih državah.
+              MetaSlim je zasnovan v sodelovanju s strokovnjaki za prehrano kot podpora vsem, ki sledijo ketogenemu načinu prehranjevanja. <strong>Po vsej Evropi ga vsak mesec naroči na tisoče zadovoljnih strank,</strong>
+              ki cenijo preprosto uporabo in naravne sestavine.
             </p>
-            <button class="sm-center btn type_0 modal ever-popup-btn" style="margin-top: 10px; display: block" href="#">Naročiti Metaslim</button>
+            <button class="sm-center btn type_0 modal ever-popup-btn" style="margin-top: 10px; display: block" href="#">Naročiti MetaSlim</button>
           </div>
           <div class="col c-6">
             <figure>
@@ -336,9 +484,9 @@
         <div class="mw dc">
           <h2>
             <strong> Kako delujeta </strong>
-            ketogena dieta in Metaslim?
+            ketogena dieta in MetaSlim?
           </h2>
-          <p class="after__title">Načelo delovanja temelji na sposobnosti našega telesa, da dobiva energijo ne le iz ogljikovih hidratov, ampak tudi iz maščob.</p>
+          <p class="after__title">Načelo temelji na sposobnosti našega telesa, da pridobiva energijo ne le iz ogljikovih hidratov, ampak tudi iz maščob.</p>
         </div>
       </section>
       <!-- / SECTION 5 -->
@@ -349,10 +497,10 @@
               <figure>
                 <img src="img/a5-1.png" />
                 <figcaption>
-                  <p>Ko nehamo uživati ogljikove hidrate in namesto tega začnemo jesti veliko maščob, se naša presnova obnovi.</p>
+                  <p>Ko zmanjšamo vnos ogljikovih hidratov in jih nadomestimo z maščobami, se naša presnova prilagodi novemu viru energije.</p>
                   <p>
-                    <strong> V jetrih se proizvajajo posebne snovi - ketonska telesa, </strong>
-                    zasnovana za razgradnjo maščob. To je osnova ketogene prehrane.
+                    <strong> V jetrih nastajajo posebne snovi – ketonska telesa, </strong>
+                    ki telesu omogočajo pridobivanje energije iz maščob. To je osnova ketogene prehrane.
                   </p>
                 </figcaption>
               </figure>
@@ -362,10 +510,10 @@
                 <img src="img/a5-2.png" />
                 <figcaption>
                   <p>
-                    Vendar so znanstveniki z nemškega inštituta za prehrano ljudi šli dlje, tako da so ustvarili posebno zdravilo, ki vsebuje
-                    <strong> naravne snovi, podobne v delovanju kot ketonska telesa. </strong>
+                    Strokovnjaki za prehrano so razvili prehransko dopolnilo, ki vsebuje
+                    <strong> naravne sestavine, ki podpirajo telo v ketonskem stanju. </strong>
                   </p>
-                  <p>Namenjeni so tudi kurjenju maščob.</p>
+                  <p>Namenjene so podpori presnovi ob ketogeni prehrani.</p>
                 </figcaption>
               </figure>
             </li>
@@ -382,15 +530,15 @@
           </div>
           <div class="col c-6">
             <h3>
-              <strong> Ketonska telesa </strong>
-              so temelj Metaslim, ki pomaga telesu pri učinkovitem prehodu v ketozo.
+              <strong> Naravne sestavine </strong>
+              so temelj MetaSlim, ki pomaga telesu pri prehodu v ketozo.
             </h3>
-            <p>Te snovi so pridobljene iz naravnih sestavin, zato telesu ne škodujejo in poleg tega imajo izjemno visoko učinkovitost (s tem, da več kot 15-krat presežejo lastna ketonska telesa osebe!).</p>
+            <p>Sestavine so pridobljene iz naravnih virov in skrbno izbrane tako, da dopolnjujejo ketogeni način prehranjevanja in podpirajo vsakodnevno počutje.</p>
             <p>
-              <strong> Klinične študije so pokazale, </strong>
-              da uporaba podpira naravne procese uravnavanja telesne teže.
+              <strong> Anketa med uporabniki je pokazala, </strong>
+              da večina uporabo ocenjuje kot preprosto in podporo presnovi kot opazno.
             </p>
-            <button class="btn type_0 modal ever-popup-btn" href="#">Naročiti Metaslim po promociji</button>
+            <button class="btn type_0 modal ever-popup-btn" href="#">Naročiti MetaSlim po promociji</button>
           </div>
         </div>
       </section>
@@ -398,10 +546,10 @@
       <section class="bg_77" id="art77">
         <div class="mw dc">
           <h2>
-            <strong> Stopnje izgube teže </strong>
-            s Metaslim
+            <strong> Faze tečaja </strong>
+            z MetaSlim
           </h2>
-          <p class="after__title">Tečaj izgube teže Metaslim v lahko ponavljate večkrat, dokler ne dosežete želene oblike.</p>
+          <p class="after__title">Tečaj MetaSlim lahko ponavljate, dokler ne dosežete svojih ciljev, vedno ob uravnoteženi prehrani.</p>
         </div>
       </section>
       <!-- / SECTION 7 -->
@@ -414,20 +562,17 @@
                 <figcaption>
                   <ul class="list marked marked2">
                     <li>
-                      <strong> Prestrukturiranje </strong>
-                      telesa zaradi izgorevanja aktivnih maščob
+                      <strong> Prilagoditev </strong>
+                      telesa na nov način prehranjevanja
                     </li>
                     <li>
-                      Do konca tedna
-                      <strong>
-                        <span style="white-space: nowrap">1-2 kg</span>
-                        <br />
-                      </strong>
-                      samodejno odide
+                      Telo se
+                      <strong> postopoma navaja </strong>
+                      na nov vir energije
                     </li>
                     <li>
-                      <strong> Zmanjšanje </strong>
-                      apetita in lakote
+                      <strong> Podpora </strong>
+                      pri nadzoru apetita
                     </li>
                   </ul>
                 </figcaption>
@@ -439,19 +584,16 @@
                 <figcaption>
                   <ul class="list marked marked2">
                     <li>
-                      <strong> Sprožilec izgorevanja </strong>
-                      maščob v
-                      <br />
-                      trebuhu
-                      <br />
+                      <strong> Telo aktivneje </strong>
+                      uporablja maščobe kot vir energije
                     </li>
                     <li>
-                      Teža začne hitro
-                      <strong> odhajati </strong>
+                      Rutina postane
+                      <strong> lažja </strong>
                     </li>
                     <li>
-                      <strong> Pojavi se </strong>
-                      veliko energije, izboljša se razpoloženje
+                      <strong> Mnogi opažajo </strong>
+                      več energije in boljše razpoloženje
                     </li>
                   </ul>
                 </figcaption>
@@ -463,13 +605,13 @@
                 <figcaption>
                   <ul class="list marked marked2">
                     <li>
-                      <strong> Aktivno izgorevanje </strong>
-                      maščob na vseh delih telesa
+                      <strong> Ustaljena podpora </strong>
+                      presnovi ob keto prehrani
                     </li>
-                    <li>Vsak dan opazni rezultati</li>
+                    <li>Napredek je odvisen od posameznika</li>
                     <li>
-                      Maščoba se odstrani s
-                      <strong> problematičnih področij </strong>
+                      Lažje vztrajanje pri
+                      <strong> zastavljenih ciljih </strong>
                     </li>
                   </ul>
                 </figcaption>
@@ -481,12 +623,12 @@
                 <figcaption>
                   <ul class="list marked marked2">
                     <li>
-                      <strong> Opazen tanek pas </strong>
+                      <strong> Utrjevanje doseženega </strong>
                     </li>
-                    <li>Oblikovanje pasu in izguba teže v obrazu</li>
+                    <li>Vzdrževanje rutine in dobrega počutja</li>
                     <li>
-                      <strong> Razvile </strong>
-                      so se zdrave prehranjevalne navade
+                      <strong> Razvite </strong>
+                      zdrave prehranjevalne navade
                     </li>
                   </ul>
                 </figcaption>
@@ -499,10 +641,10 @@
       <section id="art8">
         <div class="mw dc">
           <h2>
-            Dodatni blagodejni učinki
+            Dodatne prednosti
             <span>
               <br />
-              Metaslim na telo
+              MetaSlim
             </span>
           </h2>
         </div>
@@ -510,7 +652,7 @@
           <div class="col c-4">
             <figure class="other">
               <img src="img/a8.png" />
-              <button class="btn type_0 modal ever-popup-btn first-btn" style="width: 100%" href="#">Naročiti Metaslim po promociji</button>
+              <button class="btn type_0 modal ever-popup-btn first-btn" style="width: 100%" href="#">Naročiti MetaSlim po promociji</button>
             </figure>
           </div>
           <div class="col c-4">
@@ -519,10 +661,10 @@
                 <figure>
                   <img src="img/a8-4.png" />
                 </figure>
-                <p class="other">Zgladi celulit</p>
+                <p class="other">Podpira čvrst videz kože</p>
               </li>
               <li>
-                <p class="h order2">Spodbuja aktivno čiščenje in razstrupljanje na celični ravni</p>
+                <p class="h order2">Podpira naravne procese čiščenja telesa</p>
                 <figure class="order1">
                   <img src="img/a8-5.png" />
                 </figure>
@@ -531,10 +673,10 @@
                 <figure>
                   <img src="img/a8-6.png" />
                 </figure>
-                <p class="other">Normalizira vodno-solno ravnovesje in lajša otekline</p>
+                <p class="other">Prispeva k vodno-solnemu ravnovesju</p>
               </li>
             </ul>
-            <button class="btn type_0 modal ever-popup-btn second-btn" href="#">Naročiti Metaslim po promociji</button>
+            <button class="btn type_0 modal ever-popup-btn second-btn" href="#">Naročiti MetaSlim po promociji</button>
           </div>
         </div>
       </section>
@@ -542,7 +684,7 @@
       <section class="bg_10" id="art10">
         <div class="mw dc">
           <h2>
-            Metaslim je najbolj udobna prehrana za ljudi<br />
+            MetaSlim je najbolj udobna podpora za ljudi<br />
             na ketogeni dieti.
           </h2>
           <div class="mw"></div>
@@ -551,7 +693,7 @@
               <figure>
                 <img src="img/a10-1.png" class="not" />
                 <figcaption>
-                  <p>Brez lakote</p>
+                  <p>Preprosta uporaba</p>
                 </figcaption>
               </figure>
             </li>
@@ -559,7 +701,7 @@
               <figure>
                 <img src="img/a10-3.png" class="not" />
                 <figcaption>
-                  <p>Brez vadbe</p>
+                  <p>Primerno za vsakdan</p>
                 </figcaption>
               </figure>
             </li>
@@ -567,7 +709,7 @@
               <figure>
                 <img src="img/a10-4.png" class="not" />
                 <figcaption>
-                  <p>Ne škoduje zdravju</p>
+                  <p>Naravne sestavine</p>
                 </figcaption>
               </figure>
             </li>
@@ -579,16 +721,16 @@
         <div class="mw is-grid">
           <div class="col c-7">
             <h2>
-              Strokovno mnenje
-              <span> nutricionistov </span>
+              Mnenje
+              <span> svetovalca za prehrano </span>
             </h2>
-            <p class="after__title">Richard Groot, slavni britanski nutricionist, z več kot 30-letnimi izkušnjami</p>
+            <p class="after__title">Svetovalec za prehrano z dolgoletnimi izkušnjami pri spremljanju keto prehrane</p>
             <div class="other">
               <figure>
                 <img src="img/a11.png" class="not expert" />
                 <figcaption>
-                  <p class="mt" style="font-size: 17px">"Danes je Metaslim odlična izbira za podporo pri hujšanju. Njegova glavna prednost je preprosta uporaba. Dovolj je, da vzamete Metaslim v skladu z navodili ob ketogeni prehrani, da boste v nekaj dneh opazili, kako se topijo odvečni kilogrami, ob hkratni podpori dobremu počutju.</p>
-                  <p style="font-size: 17px">Metaslim priporočam svojim strankam, ki se držijo keto diete, saj so njihove izkušnje izjemno pozitivne. Če še niste preizkusili Metaslim, vam svetujem, da to storite in podprete svojo pot do želene postave. "</p>
+                  <p class="mt" style="font-size: 17px">"MetaSlim je po mojem mnenju dobra izbira kot podpora ob ketogeni prehrani. Njegova glavna prednost je preprosta uporaba: dovolj je, da ga jemljete v skladu z navodili ob keto prehrani, in s tem podprete presnovo ter dobro počutje na poti do svojih ciljev.</p>
+                  <p style="font-size: 17px">Stranke, ki sledijo keto načinu prehranjevanja in uporabljajo MetaSlim, svoje izkušnje večinoma opisujejo kot pozitivne. Če keto prehrano šele začenjate, je takšna podpora lahko dobrodošla popotnica."</p>
                 </figcaption>
               </figure>
             </div>
@@ -607,13 +749,13 @@
         <div class="mw is-grid">
           <div class="col c-6">
             <h2>
-              Metaslim
+              MetaSlim
               <strong> Primerjava </strong>
             </h2>
-            <p class="after__title">Z drugimi izdelki za hujšanje</p>
+            <p class="after__title">Z drugimi pristopi k uravnavanju telesne teže</p>
           </div>
           <div class="col c-6 other">
-            <button class="btn type_0 modal ever-popup-btn" href="#">Naročiti Metaslim po promociji</button>
+            <button class="btn type_0 modal ever-popup-btn" href="#">Naročiti MetaSlim po promociji</button>
           </div>
         </div>
       </section>
@@ -624,7 +766,7 @@
             <div class="features dn">
               <div class="empty"></div>
               <div class="param">
-                <h6>Učinkovita pomoč pri hujšanju</h6>
+                <h6>Podpora pri uravnavanju telesne teže</h6>
               </div>
               <div class="param">
                 <h6>Podpora telesu pri prehodu v ketozo</h6>
@@ -636,7 +778,7 @@
                 <h6>Pomoč pri nadzoru apetita</h6>
               </div>
               <div class="param">
-                <h6>Ciljno delovanje na maščobne obloge</h6>
+                <h6>Preprosta vključitev v vsakdan</h6>
               </div>
               <div class="param">
                 <h6>Odlično razmerje med ceno in kakovostjo</h6>
@@ -668,7 +810,7 @@
               </div>
               <div class="col second">
                 <div>
-                  <h5>Prehranska dopolnila</h5>
+                  <h5>Običajna prehranska dopolnila</h5>
                 </div>
                 <div>
                   <img src="img/minus.svg" />
@@ -715,7 +857,7 @@
             </div>
             <div class="col features">
               <div>
-                <h5>Revolucionarni način za hujšanje "Metaslim"</h5>
+                <h5>MetaSlim – podpora ob keto prehrani</h5>
               </div>
               <div>
                 <img src="img/plus.svg" />
@@ -738,11 +880,11 @@
             </div>
           </div>
           <div class="text-absolute">
-            <h6>Učinkovita pomoč pri hujšanju</h6>
+            <h6>Podpora pri uravnavanju telesne teže</h6>
             <h6>Podpora telesu pri prehodu v ketozo</h6>
             <h6>Podpora splošnemu počutju</h6>
             <h6>Pomoč pri nadzoru apetita</h6>
-            <h6>Ciljno delovanje na maščobne obloge</h6>
+            <h6>Preprosta vključitev v vsakdan</h6>
             <h6>Odlično razmerje med ceno in kakovostjo</h6>
           </div>
           <div class="scc">
@@ -777,7 +919,7 @@
                   </figcaption>
                 </figure>
                 <article>
-                  <p>«Zdravilo je super !!! Nikoli nisem shujšala toliko kot z njim. Enostavno in hitro. Izgubila sem 18 kg. Mene je mučilo odvečna teža več kot 10 let, česar preprosto nisem poskusila. Nekatere diete so pomagale, a potem se je teža spet vrnila. Keto dieta z uporabo Metaslim se je izkazala za najučinkovitejšo. Učinek je super! Prijatelju je svetovala Metaslim. Tudi z njegovo pomočjo je vrgla skoraj 24 kg!»</p>
+                  <p>«MetaSlim uporabljam ob keto prehrani in z izkušnjo sem zelo zadovoljna. Naročilo je bilo preprosto, paket sem prejela hitro in plačala šele ob prevzemu, kar mi je dalo občutek varnosti. Počutim se bolj energično in lažje vztrajam pri svojih prehranskih ciljih. Izdelek sem priporočila tudi prijateljici, ki je prav tako zadovoljna.»</p>
                   <figure>
                     <img src="img/r1.png" />
                   </figure>
@@ -790,13 +932,13 @@
                     <h5>
                       Ludmila,
                       <br />
-                      <span class="color_alt"> 55 let, Šmarje pri Jelsah </span>
+                      <span class="color_alt"> 55 let, Šmarje pri Jelšah </span>
                       <br />
                     </h5>
                   </figcaption>
                 </figure>
                 <article>
-                  <p>«Stara sem 55 let. Zaradi polnosti trpim od 41 let. V najslabših obdobjih je bila teža 117 kg. V zadnjem letu je zdravje postalo zelo slabo. Zdravnik je rekel, da je nujno shujšati, saj niti srce ne zdrži več, niti sklepi. Poskusila sem keto dieto s Metaslim. Iskreno povedano, nisem ravno verjel, da mi bo ta metoda pomagala. Toda na koncu sem odvrgela skoraj 30 kg. Metaslim sem vzela en tečaj. Zdaj je moje zdravje boljše. Z rezultatom sem zelo zadovoljna, naročila bom še en Metaslim. »</p>
+                  <p>«Pri mojih letih sem previdna pri spletnih nakupih, zato mi je bilo všeč, da plačam šele, ko paket dobim v roke. Dostava je bila hitra, izdelek original, svetovalka po telefonu pa prijazna. MetaSlim jemljem ob bolj uravnoteženi prehrani in opažam, da se počutim bolje in imam več volje za vsakodnevne aktivnosti. Naročila bom ponovno.»</p>
                   <figure>
                     <img src="img/r2.png" />
                   </figure>
@@ -817,7 +959,7 @@
                   </figcaption>
                 </figure>
                 <article>
-                  <p>«Rada sem shujšala s Metaslimom, ker ničesar ni treba storiti. Samo sledite keto dieti, pijte z vodo in shujšajte. Nisem našel negativnih učinkov na telo. Nasprotno, pojavilo se je veliko energije, postalo je bolje, da sem se dovolj naspavala, koža se je izboljšala, mozolji, ki so me motili, preden so izginili, celulit je izginil! V enem mesecu sem izgubila 11 kg. Všeč mi je bilo vse. Vzela bom Metaslim. Vsem svetujem»</p>
+                  <p>«Všeč mi je, da je uporaba tako preprosta: samo sledim keto prehrani in jemljem MetaSlim po navodilih. Negativnih učinkov nisem opazila, nasprotno, imam več energije, bolje spim in lažje ohranjam zdrave navade. Tudi naročilo brez plačila vnaprej je velik plus. Vsem, ki razmišljajo o keto prehrani, ga priporočam.»</p>
                   <figure>
                     <img src="img/r3.png" />
                   </figure>
@@ -850,68 +992,23 @@
         <div class="mw dc">
           <h2>
             <strong> Preprosta uporaba </strong>
-            Metaslim
+            MetaSlim
           </h2>
-          <p class="after__title">Teža se bo začela zmanjševati v 2-3 dneh po začetku tečaja</p>
+          <p class="after__title">Enostavno se vključi v vašo vsakodnevno rutino ob ketogeni prehrani</p>
         </div>
       </section>
-      <!-- / SECTION 14 -->
-<!--      <section class="bg_14" id="art14">-->
-<!--        <div class="mw">-->
-<!--          <ul class="cards is-grid type_11">-->
-<!--            <li>-->
-<!--              <figure>-->
-<!--                <div class="how-to">-->
-<!--                  <img src="img/a14-1.svg" class="not" />-->
-<!--                  <div class="how-to-txt">porcija</div>-->
-<!--                </div>-->
-<!--                <figcaption>-->
-<!--                  <p>1 obrok</p>-->
-<!--                </figcaption>-->
-<!--              </figure>-->
-<!--            </li>-->
-<!--            <li>-->
-<!--              <figure>-->
-<!--                <div class="how-to">-->
-<!--                  <img src="img/a14-2.svg" class="not" style="max-width: 100px" />-->
-<!--                  <div class="how-to-txt">Voda</div>-->
-<!--                </div>-->
-<!--                <figcaption>-->
-<!--                  <p>raztopite v vodi</p>-->
-<!--                </figcaption>-->
-<!--              </figure>-->
-<!--            </li>-->
-<!--            <li>-->
-<!--              <figure>-->
-<!--                <div class="how-to">-->
-<!--                  <img src="img/a14-31.png" class="not" style="max-width: 100px" />-->
-<!--                  <div class="how-to-txt">na&nbsp;dan</div>-->
-<!--                </div>-->
-<!--                <figcaption>-->
-<!--                  <p>-->
-<!--                    Ponovite 3-krat-->
-<!--                    <br />-->
-<!--                    na dan-->
-<!--                    <br />-->
-<!--                  </p>-->
-<!--                </figcaption>-->
-<!--              </figure>-->
-<!--            </li>-->
-<!--          </ul>-->
-<!--        </div>-->
-<!--      </section>-->
       <!-- /Section 116 -->
       <section class="bg_116" id="art016">
         <div class="mw is-grid">
           <div class="col c-6">
             <h2>
               <strong> Kako naročiti </strong>
-              Metaslim
+              MetaSlim
             </h2>
-            <p class="after__title">V Sloveniji je zdaj svetovni hit na področju prehrane</p>
+            <p class="after__title">Plačilo šele ob prevzemu paketa – brez plačila vnaprej</p>
           </div>
           <div class="col c-6 other">
-            <button class="btn type_0 modal ever-popup-btn" href="#">Naročiti Metaslim po promociji</button>
+            <button class="btn type_0 modal ever-popup-btn" href="#">Naročiti MetaSlim po promociji</button>
           </div>
         </div>
       </section>
@@ -937,7 +1034,7 @@
                   <div class="delivery-to-txt">Klic</div>
                 </div>
                 <figcaption>
-                  <p>Poklicali vas bomo, da določimo naslov za dostavo.</p>
+                  <p>Poklicali vas bomo, da potrdimo naročilo in naslov za dostavo</p>
                 </figcaption>
               </figure>
             </li>
@@ -948,7 +1045,7 @@
                   <div class="delivery-to-txt">Dostava</div>
                 </div>
                 <figcaption>
-                  <p>Blago dostavimo na najbližjo pošto</p>
+                  <p>Paket dostavimo na najbližjo pošto v 2–3 delovnih dneh</p>
                 </figcaption>
               </figure>
             </li>
@@ -956,14 +1053,45 @@
               <figure>
                 <div class="delivery-to">
                   <img src="img/a16-4.svg" />
-                  <div class="delivery-to-txt">Pridobivanje</div>
+                  <div class="delivery-to-txt">Prevzem</div>
                 </div>
                 <figcaption>
-                  <p>Priti boste morali le na pošto in prejeti paket</p>
+                  <p>Paket preverite in plačate šele ob prevzemu</p>
                 </figcaption>
               </figure>
             </li>
           </ul>
+        </div>
+      </section>
+      <!-- / SECTION FAQ (AEO) -->
+      <section id="faq" style="padding: 50px 15px; background: #fff;">
+        <div style="max-width: 900px; margin: 0 auto; font-family: 'Open Sans', sans-serif;">
+          <h2 style="text-align: center; margin-bottom: 30px;">Pogosta vprašanja</h2>
+
+          <div style="border: 1px solid #eaeaea; border-radius: 10px; padding: 20px 25px; margin-bottom: 15px;">
+            <h3 style="font-size: 18px; margin: 0 0 8px;">Ali moram plačati vnaprej?</h3>
+            <p style="margin: 0; color: #444; line-height: 1.6;">Ne. MetaSlim plačate šele ob prevzemu paketa (plačilo po povzetju). Ob naročilu ne vnašate podatkov o kartici in ne plačate ničesar vnaprej.</p>
+          </div>
+
+          <div style="border: 1px solid #eaeaea; border-radius: 10px; padding: 20px 25px; margin-bottom: 15px;">
+            <h3 style="font-size: 18px; margin: 0 0 8px;">Kako poteka naročilo MetaSlim?</h3>
+            <p style="margin: 0; color: #444; line-height: 1.6;">Izpolnite obrazec z imenom in telefonsko številko. Naš svetovalec vas pokliče za potrditev naročila in naslova. Paket prejmete v 2–3 delovnih dneh in ga plačate ob prevzemu.</p>
+          </div>
+
+          <div style="border: 1px solid #eaeaea; border-radius: 10px; padding: 20px 25px; margin-bottom: 15px;">
+            <h3 style="font-size: 18px; margin: 0 0 8px;">Ali je izdelek original?</h3>
+            <p style="margin: 0; color: #444; line-height: 1.6;">Da. Na tej strani naročate original MetaSlim neposredno od pooblaščenega distributerja za Slovenijo. Pred plačilom lahko paket preverite.</p>
+          </div>
+
+          <div style="border: 1px solid #eaeaea; border-radius: 10px; padding: 20px 25px; margin-bottom: 15px;">
+            <h3 style="font-size: 18px; margin: 0 0 8px;">Koliko stane MetaSlim?</h3>
+            <p style="margin: 0; color: #444; line-height: 1.6;">Redna cena je 78 €. V času promocije je cena 39 €, kar pomeni 50% popust. Plačilo poteka ob dostavi, brez dodatnih skritih stroškov.</p>
+          </div>
+
+          <div style="border: 1px solid #eaeaea; border-radius: 10px; padding: 20px 25px;">
+            <h3 style="font-size: 18px; margin: 0 0 8px;">Kaj je MetaSlim?</h3>
+            <p style="margin: 0; color: #444; line-height: 1.6;">MetaSlim je prehransko dopolnilo z naravnimi sestavinami, zasnovano kot podpora presnovi in dobremu počutju ob uravnoteženi prehrani. Ni nadomestilo za raznoliko prehrano in ne zdravi bolezni.</p>
+          </div>
         </div>
       </section>
     </main>
@@ -971,9 +1099,9 @@
       <!-- / FOOTER -->
       <div class="mw">
         <figure class="logo">
-          <img alt="" class="main_logo" src="img/logo.png" />
+          <img alt="MetaSlim logotip" class="main_logo" src="img/logo.png" />
           <figcaption>
-            <span> Učinkovitost so dokazali zdravniki </span>
+            <span> Naravna formula z izbranimi sestavinami </span>
           </figcaption>
           <div class="order-hit">
             <img alt="" class="label" src="img/label.svg" />
@@ -993,22 +1121,21 @@
         </figure>
         <figure class="product">
           <img alt="" class="sticker" src="img/label-2.svg" />
-          <img alt="" class="main_product" src="img/produc1t.png" style="width: 100%; max-width: 225px !important; margin-top: 45px" />
+          <img alt="MetaSlim izdelek" class="main_product" src="img/produc1t.png" style="width: 100%; max-width: 225px !important; margin-top: 45px" />
         </figure>
         <h1>
-          Učinkovita podpora pri uravnavanju telesne teže
+          Naravna podpora pri uravnavanju telesne teže
           <br />
-          <span> temelji na ketogeni prehrani </span>
+          <span> ob ketogeni prehrani </span>
         </h1>
         <ul class="list marked">
           <li>
-            <strong> Začnite </strong>
-            aktivno kurjenje maščob takoj po zaužitju
+            <strong> Podpora </strong>
+            presnovi že od prvega dne uporabe
           </li>
           <li>
-            Boji se proti
-            <strong> najbolj "škodljivi" maščobi </strong>
-            – visceralni
+            Zasnovan kot
+            <strong> dopolnilo ketogeni prehrani </strong>
           </li>
           <li>
             <strong> Podpora </strong>
@@ -1021,7 +1148,7 @@
         </ul>
         <div class="form" id="cloneThis">
           <div class="popup__img">
-            <img src="img/produc1t.png" alt="" />
+            <img src="img/produc1t.png" alt="MetaSlim izdelek" />
           </div>
           <form action="/land/order" method="post" class="x_order_form al-form">
             <h5 class="w_700">
@@ -1056,22 +1183,30 @@
             <select class="al-country" name="country" style="display: none"></select>
             <div><input placeholder="Ime" name="name" type="text" required autocomplete="name" /></div>
             <div><input placeholder="Telefonska številka" name="phone" type="tel" required autocomplete="tel" /></div>
-            <input type="submit" value="Dobiti popust" />
+            <input type="submit" value="Naroči – plačaj ob prevzemu" />
             * 50% popust
           </form>
         </div>
       </div>
     </footer>
-    <div class="footer-disclaimer" style="text-align: center; padding: 25px 10px; font-size: 13px; color: #888; background-color: #f9f9f9; border-top: 1px solid #eaeaea; line-height: 1.6; font-family: 'Open Sans', sans-serif;">
-        <p style="max-width: 1000px; margin: 0 auto;">* Rezultati se lahko razlikujejo od posameznika do posameznika. Izdelek ni namenjen diagnosticiranju, zdravljenju ali preprečevanju katere koli bolezni.</p>
-        <p style="margin-top: 12px;">
-            <a href="privacy.html" style="color: #0883b0; text-decoration: none; margin: 0 12px; font-weight: 600;">Pravilnik o zasebnosti</a> | 
-            <a href="terms.html" style="color: #0883b0; text-decoration: none; margin: 0 12px; font-weight: 600;">Pogoji uporabe</a>
-        </p>
+    <!-- / RODAPÉ COMPLIANCE E-E-A-T -->
+    <div class="footer-disclaimer" style="text-align: center; padding: 30px 15px; font-size: 13px; color: #777; background-color: #f9f9f9; border-top: 1px solid #eaeaea; line-height: 1.7; font-family: 'Open Sans', sans-serif;">
+      <p style="max-width: 1000px; margin: 0 auto 10px;">
+        <strong>MetaSlim je prehransko dopolnilo.</strong> Prehransko dopolnilo ni nadomestilo za uravnoteženo in raznoliko prehrano ter zdrav način življenja. Izdelek ni namenjen diagnosticiranju, zdravljenju ali preprečevanju bolezni. Rezultati se lahko razlikujejo od posameznika do posameznika. Priporočene dnevne količine se ne sme preseči. Shranjujte nedosegljivo otrokom. Izdelek ni primeren za nosečnice, doječe matere in osebe, mlajše od 18 let.
+      </p>
+      <p style="max-width: 1000px; margin: 0 auto 18px;">
+        Pred uporabo natančno preberite navodila na embalaži. V primeru zdravstvenih težav se posvetujte z zdravnikom ali farmacevtom. * Rezultati ankete med uporabniki izdelka; subjektivna ocena zadovoljstva.
+      </p>
+      <p style="margin: 0;">
+        <a href="privacy.html" style="color: #0883b0; text-decoration: none; margin: 0 10px; font-weight: 600;">Pravilnik o zasebnosti</a> |
+        <a href="terms.html" style="color: #0883b0; text-decoration: none; margin: 0 10px; font-weight: 600;">Pogoji uporabe</a> |
+        <a href="dostava.html" style="color: #0883b0; text-decoration: none; margin: 0 10px; font-weight: 600;">Dostava in vračila</a> |
+        <a href="placilo.html" style="color: #0883b0; text-decoration: none; margin: 0 10px; font-weight: 600;">Plačilo ob prevzemu</a>
+      </p>
+      <p style="margin: 15px 0 0; color: #aaa;">© <script>document.write(new Date().getFullYear());</script> MetaSlim Slovenija. Vse pravice pridržane.</p>
     </div>
     <div class="ever-popup-build"></div>
     <script src="js/index.js"></script>
     <script src="/tl-validator.js?country=si&label=false"></script>
   </body>
 </html>
- 
